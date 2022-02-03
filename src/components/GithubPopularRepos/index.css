@@ -1,0 +1,63 @@
+.github-repos-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.github-repos-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.language-filtered-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: none;
+}
+
+.repositories-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-img {
+  height: 200px;
+  width: 250px;
+}
+
+.failure-message {
+  color: #1e293b;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-img {
+    height: 400px;
+    width: 500px;
+  }
+
+  .failure-message {
+    font-size: 36px;
+  }
+}
